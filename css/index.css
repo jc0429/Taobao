@@ -1,0 +1,39 @@
+/*
+Css 引入语法
+@import  导入其他样式
+@media 媒体查询
+@font-face 自定义字体
+*/
+
+@import "reset.css";
+
+
+/* @font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.ttf?t=1660124865140') format('truetype');
+}
+
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+#header li{
+  float:left;
+  line-height: 30px;
+  padding: 0 6px;
+}
+#header li a {
+  color: #6c6c6c
+}
+#header a.login{
+  color: #f22e00;
+}
+#header span {
+  font-size: 12px;
+}
